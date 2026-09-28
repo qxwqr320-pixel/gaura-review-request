@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー | 株式会社ガウラ</title>
+  <meta name="description" content="GAURA Review Request Automation のプライバシーポリシー（株式会社ガウラ）">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">株式会社ガウラ<small>GAURA Inc.</small></a>
+      <nav class="site-nav" aria-label="サイトナビゲーション">
+        <ul>
+          <li><a href="index.html">トップ</a></li>
+          <li><a href="index.html#service">サービス</a></li>
+          <li><a href="index.html#security">セキュリティ</a></li>
+          <li><a href="index.html#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc">
+    <div class="wrap">
+      <h1>プライバシーポリシー</h1>
+      <p class="meta">制定日：2026年9月28日　／　株式会社ガウラ</p>
+
+      <p>株式会社ガウラ（以下「当社」）は、当社が提供する「GAURA Review Request Automation」（以下「本サービス」）において取り扱う情報について、以下のとおりプライバシーポリシー（以下「本ポリシー」）を定めます。</p>
+
+      <h2>1. 事業者情報</h2>
+      <ul>
+        <li>事業者名：株式会社ガウラ</li>
+        <li>代表者：代表取締役　平井 政人</li>
+        <li>所在地：〒530-0001<br>大阪府大阪市北区梅田1-2-2<br>大阪駅前第2ビル 12-12</li>
+        <li>お問い合わせ：<a href="mailto:gaura.inc@gmail.com">gaura.inc@gmail.com</a></li>
+      </ul>
+
+      <h2>2. 本サービスの内容</h2>
+      <p>本サービスは、Amazon出品者向けに、Amazon Selling Partner API（以下「SP-API」）を利用し、注文・配送状況を確認して、Amazonが提供するSolicitations APIを利用したレビューおよび出品者評価の依頼送信を支援・自動化するサービスです。</p>
+      <p>Amazon出品者（以下「利用者」）自身がOAuth認証によってAmazonアカウントを連携し、当社はサービス提供に必要な最小限の情報のみを使用します。</p>
+
+      <h2>3. 取得する情報</h2>
+      <h3>3-1. Amazonから取得する情報</h3>
+      <p>利用者の許可に基づき、SP-APIを通じて以下の情報を取得します。</p>
+      <ul>
+        <li>注文ID、注文日時、注文ステータス</li>
+        <li>出荷・配送状況</li>
+        <li>マーケットプレイスID、出品者ID</li>
+        <li>Solicitations APIによる依頼の送信可否および送信結果</li>
+        <li>アカウント連携に必要な認証情報（リフレッシュトークン等）</li>
+      </ul>
+      <h3>3-2. 利用者から取得する情報</h3>
+      <ul>
+        <li>お問い合わせ時にご提供いただく氏名、会社名、メールアドレス、お問い合わせ内容</li>
+        <li>有料プランのご契約に必要な情報（決済情報はStripeが直接取得し、当社はカード番号を保持しません）</li>
+      </ul>
+      <h3>3-3. 取得・保存しない情報</h3>
+      <p>当社は、購入者の氏名、住所、電話番号、メールアドレスなど、依頼送信に不要な個人情報を取得・保存しない方針とします。万一、APIの応答等にこれらの情報が含まれる場合でも、保存せずに破棄します。</p>
+
+      <h2>4. 利用目的</h2>
+      <p>取得した情報は、以下の目的の範囲でのみ利用します。</p>
+      <ol>
+        <li>レビューおよび出品者評価の依頼送信対象となる注文の判定</li>
+        <li>Solicitations APIを利用した依頼の送信</li>
+        <li>送信結果の記録および同一注文への重複送信の防止</li>
+        <li>本サービスの提供・維持、障害対応、不正利用の防止</li>
+        <li>利用料金の請求</li>
+        <li>お問い合わせへの対応</li>
+      </ol>
+      <p>Amazonから取得した情報を、広告、マーケティング、利用者以外への情報提供、その他上記以外の目的に利用することはありません。</p>
+
+      <h2>5. 第三者提供</h2>
+      <p>当社は、取得した情報を第三者に販売しません。また、法令に基づく場合を除き、利用者の同意なく第三者に提供しません。</p>
+
+      <h2>6. 外部サービスの利用</h2>
+      <p>当社は本サービスの提供にあたり、以下の外部サービスを利用します。</p>
+      <ul>
+        <li><strong>Amazon Web Services（AWS）</strong>：本サービスを稼働させるクラウドインフラとして使用します。</li>
+        <li><strong>Stripe</strong>：利用料金の決済処理のみに使用します。Amazonから取得した情報はStripeと共有しません。</li>
+      </ul>
+
+      <h2>7. 安全管理措置</h2>
+      <ul>
+        <li>Amazonとの通信はHTTPS（TLS）により暗号化します。</li>
+        <li>保存するデータは、アクセス権限を限定したクラウド環境で管理します。</li>
+        <li>認証情報は外部に公開されない環境で管理し、アクセスできる者を当社の運営担当者に限定します。</li>
+        <li>必要最小限の情報のみを取得・保存し、不要となった情報は削除します。</li>
+        <li>情報漏えい等のセキュリティ事故が発生した場合は、速やかに影響範囲を調査し、関係法令およびAmazonの定めに従って対応・報告します。</li>
+      </ul>
+
+      <h2>8. 保存期間と削除</h2>
+      <p>取得した情報は、利用目的の達成に必要な期間に限り保存します。</p>
+      <p>Amazonとの連携を解除した場合、保存しているAmazon認証情報を削除します。その他の保存データについて削除をご希望の場合は、お問い合わせ窓口で削除依頼を受け付けます。</p>
+      <p>連携の解除は、Amazonセラーセントラルの「アプリとサービスの管理」からいつでも行えます。</p>
+
+      <h2>9. 開示・訂正・削除等のご請求</h2>
+      <p>利用者ご本人から、当社が保有する情報の開示、訂正、利用停止、削除等のご請求があった場合、ご本人確認のうえ、法令に従い速やかに対応します。下記のお問い合わせ窓口までご連絡ください。</p>
+
+      <h2>10. Cookie等について</h2>
+      <p>本ウェブサイトは、Cookieやアクセス解析ツールを使用していません。</p>
+
+      <h2>11. 本ポリシーの変更</h2>
+      <p>当社は、法令の改正やサービス内容の変更等に応じて、本ポリシーを改定することがあります。重要な変更を行う場合は、本ウェブサイト上でお知らせします。</p>
+
+      <h2>12. お問い合わせ窓口</h2>
+      <p>本ポリシーおよび情報の取り扱いに関するお問い合わせは、以下までご連絡ください。</p>
+      <div class="contact-box">
+        <p><strong>株式会社ガウラ　GAURA Review Request Automation 担当</strong></p>
+        <p>メール：<a href="mailto:gaura.inc@gmail.com">gaura.inc@gmail.com</a></p>
+      </div>
+
+      <p class="meta" style="margin-top:40px">以上</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <p>&copy; 2026 株式会社ガウラ</p>
+        <p>Amazon、Amazon.co.jp およびそれらのロゴは、Amazon.com, Inc. またはその関連会社の商標です。本サービスはAmazonが運営・保証するものではありません。</p>
+      </div>
+      <ul>
+        <li><a href="index.html">トップ</a></li>
+        <li><a href="privacy.html">プライバシーポリシー</a></li>
+        <li><a href="index.html#contact">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
